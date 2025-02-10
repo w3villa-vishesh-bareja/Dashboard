@@ -1,0 +1,33 @@
+@media (max-width:425px){
+    /* *{
+        margin: 0;
+        padding: 0;
+    } */
+    .dc-container {
+        overflow-x: hidden; 
+        width: 100%;
+        box-sizing: border-box;
+      }
+      
+      .Card-container {
+        width: 100%;
+        grid-template-columns: repeat(1,1fr);
+      }
+      
+      .Pie-chart, .Bar-chart, .ps-container, .po-container, .dt-container {
+        width: 100%; 
+        box-sizing: border-box;
+      }
+    .title{
+        font-size: 0.8rem;
+    }
+    .po-container{
+        margin-top: 20px;
+    }
+    .dt-container{
+        margin-top: 20px;
+    }
+    .Pie-chart{
+        width: 100%;
+    }
+}

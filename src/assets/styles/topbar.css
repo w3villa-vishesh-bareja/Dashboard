@@ -1,0 +1,6 @@
+@media (max-width:425px) {
+    .search{
+        padding-right: 0;
+        max-width: 250px;
+    }
+}

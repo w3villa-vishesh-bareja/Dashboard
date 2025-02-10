@@ -1,0 +1,12 @@
+@media (max-width:425px) {
+    .ps-title{
+        font-size: 0.9rem;
+        font-weight: bold;
+    }
+    .filter{
+        font-size:0.9rem;
+    }
+    .filter-container{
+        gap: 4px;
+    }
+}

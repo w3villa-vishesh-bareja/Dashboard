@@ -1,0 +1,20 @@
+.custom-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Example CSS for sliding sidebar */
+.sidebar {
+  /* position: absolute; */
+  /* top: 0; */
+  left: 0px; 
+  transition: all 0.3s ease-in-out;
+  z-index: 20;
+}
+
+.sidebar.left-0 {
+  left: 0; /* Show the sidebar */
+}
+
+/* Ensure the sidebar expands and contracts smoothly */
+.sidebar-transition {
+  transition: left 0.3s ease-in-out;
+}
