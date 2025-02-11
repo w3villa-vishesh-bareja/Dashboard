@@ -12,7 +12,6 @@ function App() {
       <Route path='/' element={<Dashboard/>}>
       <Route path='/Form' element={<Form/>}/>
       <Route path='/' element={<DashContent/>}/>
-
       </Route>
     </Routes>
   )
